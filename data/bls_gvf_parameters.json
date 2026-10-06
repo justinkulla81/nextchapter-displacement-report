@@ -1,0 +1,12 @@
+{"source":"BLS, Parameters and factors for calculating standard errors for estimates from the CPS (XLSX), accessed 2026-10-06; methods document dated July 2026",
+"formulas":{"level":"se(x;N)=sqrt((a+b*N)*(x-x^2/N)), N=civilian noninstitutional population 16+","percent":"se(p;y)=sqrt(((a+b*y)/y)*p*(100-p)), y=base"},
+"rows":{
+"unemployed_total":{"table":"PF-1","a":-6393.37859621,"b":0.000041429307,"f_q":0.742772,"f_y":0.46041,"f_cy":0.564},
+"unemployed_mgmt_prof":{"table":"PF-13","a":-5524.8,"b":0.000036298,"f_q":0.74035,"f_y":0.42738,"f_cy":0.56923},
+"unemployed_mgmt_bus_fin":{"table":"PF-13","a":-6078.3,"b":0.000038532,"f_q":0.74733,"f_y":0.42825,"f_cy":0.5745},
+"unemployed_professional":{"table":"PF-13","a":-4657.1,"b":0.00003277,"f_q":0.72956,"f_y":0.41433,"f_cy":0.5571},
+"unemployed_office_admin":{"table":"PF-13","a":-7274.7,"b":0.000044092,"f_q":0.72995,"f_y":0.41613,"f_cy":0.55553},
+"unemployed_27wk_level":{"table":"PF-12","a":-4453.2,"b":0.000033043,"f_q":0.74976,"f_y":0.44953,"f_cy":0.5755},
+"pct_27wk_of_unemployed":{"table":"PF-12","a":3790.64,"b":-0.0000140585,"f_q":0.724457,"f_y":0.413587,"f_cy":0.554675},
+"labor_force_level":{"table":"PF-1","a":-3054.38759843,"b":0.00002213195,"f_q":0.858739,"f_y":0.64809,"f_cy":0.682433}
+}}
