@@ -1,6 +1,6 @@
 # NextChapter Displacement Report — replication materials
 
-Code, parameters and derived data behind the **NextChapter Displacement Report** (September 2026 edition, Version 1.6), a monthly report on white-collar job loss, long job searches, AI and career transitions.
+Code, parameters and derived data behind the **NextChapter Displacement Report** (September 2026 edition, Version 1.71), a monthly report on white-collar job loss, long job searches, AI and career transitions.
 
 Report: https://launchyournextchapter.com/reports/displacement-report-september-2026
 Corrections and questions: Justin Kulla, jkulla@launchyournextchapter.com
@@ -17,6 +17,9 @@ Corrections and questions: Justin Kulla, jkulla@launchyournextchapter.com
 | Hires per job opening, 2001–2026 | `data/hires_per_opening.csv` (BLS JOLTS via FRED; annual averages) |
 | Revenue per employee, 27 large white-collar employers | `data/displacement-report-2026-q3-revenue-per-employee.csv` (sources and rules in `methodology/methodology.md`) |
 | Senior openings tracker (pilot, Appendix A) | `code/07_openings_tracker_pilot.py` (requires the NextChapter jobs database; not reproducible externally; pilot only) |
+| AI exposure vs outcomes by occupation; customer service test (v1.71) | `code/11_exposure_vs_outcomes.py` |
+| Education and experience breakdowns (v1.71) | `code/12_education_experience.py` |
+| Beyond-unemployment white-collar panel (v1.7) | `code/10_hidden_displacement.py` |
 | Nativity breakdown; age-sex standardized 55+ participation (v1.6) | `code/09_nativity_and_age_standardization.py` |
 | Industry productivity vs long searches (Q3 feature) | `code/08_industry_productivity.py`, `data/industry_productivity_vs_long_searches.csv` |
 
