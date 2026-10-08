@@ -1,6 +1,6 @@
 # NextChapter Displacement Report — replication materials
 
-Code, parameters and derived data behind the **NextChapter Displacement Report** (September 2026 edition, Version 1.71), a monthly report on white-collar job loss, long job searches, AI and career transitions.
+Code, parameters and derived data behind the **NextChapter Displacement Report** (September 2026 edition, Version 1.72), a monthly report on white-collar job loss, long job searches, AI and career transitions.
 
 Report: https://launchyournextchapter.com/reports/displacement-report-september-2026
 Corrections and questions: Justin Kulla, jkulla@launchyournextchapter.com
@@ -17,6 +17,7 @@ Corrections and questions: Justin Kulla, jkulla@launchyournextchapter.com
 | Hires per job opening, 2001–2026 | `data/hires_per_opening.csv` (BLS JOLTS via FRED; annual averages) |
 | Revenue per employee, 27 large white-collar employers | `data/displacement-report-2026-q3-revenue-per-employee.csv` (sources and rules in `methodology/methodology.md`) |
 | Senior openings tracker (pilot, Appendix A) | `code/07_openings_tracker_pilot.py` (requires the NextChapter jobs database; not reproducible externally; pilot only) |
+| Total factor productivity decomposition: capital deepening, labor quality, TFP (v1.72, Q3 addendum) | `code/13_tfp_decomposition.md` (SF Fed quarterly TFP series) → `data/sf_fed_tfp_decomposition.csv` |
 | AI exposure vs outcomes by occupation; customer service test (v1.71) | `code/11_exposure_vs_outcomes.py` |
 | Education and experience breakdowns (v1.71) | `code/12_education_experience.py` |
 | Beyond-unemployment white-collar panel (v1.7) | `code/10_hidden_displacement.py` |
@@ -27,6 +28,7 @@ Corrections and questions: Justin Kulla, jkulla@launchyournextchapter.com
 
 - **Census Bureau, Current Population Survey basic monthly public-use microdata**, via api.census.gov (free key: https://api.census.gov/data/key_signup.html). Microdata are not redistributed here; the scripts download them.
 - **BLS, "Parameters and factors for calculating standard errors for estimates from the CPS"** (methods dated July 2026): https://www.bls.gov/cps/documentation.htm#reliability
+- **Federal Reserve Bank of San Francisco, quarterly TFP series** (Fernald): https://www.frbsf.org/research-and-insights/data-and-indicators/total-factor-productivity-tfp/
 - **SEC EDGAR full-text search** (https://efts.sec.gov/LATEST/search-index) and filing archives.
 - Third-party figures cited in the report (BLS releases, Challenger, Federal Reserve surveys and others) are listed with links in the report's Appendix C.
 

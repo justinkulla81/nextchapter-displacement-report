@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.72 — 2026-10-07
+| Change | Type | Previous | Current | Reason | Historical impact |
+|---|---|---|---|---|---|
+| TFP decomposition from SF Fed quarterly series (code/13_tfp_decomposition.md; data/sf_fed_tfp_decomposition.csv) | Section addition; new data source | Labor productivity only (BLS) | Adds TFP, utilization-adjusted TFP, capital deepening, labor quality | Distinguish technology-driven productivity from capital deepening and utilization | None (new series); illustrative productivity scenario gains a caveat, figures unchanged |
+| Check of Apollo (Slok) Oct 5, 2026 note | Interpretation | None | Cited, labeled post-reference-period | Reconcile outside commentary with the data | None |
+
 ## 1.71 — 2026-10-06
 | Change | Type | Previous | Current | Reason | Historical impact |
 |---|---|---|---|---|---|
