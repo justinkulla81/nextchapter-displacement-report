@@ -1,6 +1,6 @@
-# NextChapter Employment Report — replication materials
+# NextChapter White Collar Employment Report — replication materials
 
-Code, parameters and derived data behind the **NextChapter Employment Report** (September 2026 edition, Version 1.8; titled the NextChapter Displacement Report through Version 1.72), a monthly report on how people are working, being hired and changing jobs, long job searches, AI, and what public programs are adding. Version 1.8 changed the framing and names only; data, measures and methods are unchanged (see CHANGELOG.md).
+Code, parameters and derived data behind the **NextChapter White Collar Employment Report** (September 2026 edition, Version 1.72; published as the NextChapter Displacement Report through October 12, 2026 and renamed October 13, 2026), a monthly report on how people are working, being hired and changing jobs, long job searches, AI, and what public programs are adding. The October 13 revision changed the name and framing only; data, measures and methods are unchanged (see CHANGELOG.md).
 
 Report: https://launchyournextchapter.com/reports/displacement-report-september-2026
 Corrections and questions: Justin Kulla, jkulla@launchyournextchapter.com
@@ -53,4 +53,4 @@ python3 05_seasonal_sensitivity.py
 
 ## License
 
-Code: MIT License. Data files and documentation: CC BY 4.0 (attribute "NextChapter Employment Report").
+Code: MIT License. Data files and documentation: CC BY 4.0 (attribute "NextChapter White Collar Employment Report"; formerly the NextChapter Displacement Report).
