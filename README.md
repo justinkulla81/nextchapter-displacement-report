@@ -1,6 +1,6 @@
-# NextChapter Displacement Report — replication materials
+# NextChapter Employment Report — replication materials
 
-Code, parameters and derived data behind the **NextChapter Displacement Report** (September 2026 edition, Version 1.72), a monthly report on white-collar job loss, long job searches, AI and career transitions.
+Code, parameters and derived data behind the **NextChapter Employment Report** (September 2026 edition, Version 1.8; titled the NextChapter Displacement Report through Version 1.72), a monthly report on how people are working, being hired and changing jobs, long job searches, AI, and what public programs are adding. Version 1.8 changed the framing and names only; data, measures and methods are unchanged (see CHANGELOG.md).
 
 Report: https://launchyournextchapter.com/reports/displacement-report-september-2026
 Corrections and questions: Justin Kulla, jkulla@launchyournextchapter.com
@@ -9,7 +9,7 @@ Corrections and questions: Justin Kulla, jkulla@launchyournextchapter.com
 
 | Output in the report | How |
 |---|---|
-| White-Collar Long-Term Unemployment Index (Exhibit 1), monthly 2015–2026 | `code/01_wc_index_monthly.py` → `data/wc-index.csv` (seasonal factors in `methodology/methodology.md`) |
+| White-Collar Long-Search Index (Exhibit 1; named the White-Collar Long-Term Unemployment Index through Version 1.72), monthly 2015–2026 | `code/01_wc_index_monthly.py` → `data/wc-index.csv` (seasonal factors in `methodology/methodology.md`) |
 | Breakdowns by occupation, industry, age; older workers; graduates; blue-collar | `code/02_cps_breakdowns.py` and `code/03_cps_aggregates.py` → `data/cps_aggregates_jan_aug_2019_2025_2026.json` |
 | 90% margins of error (BLS generalized variance method) | `code/04_margins_of_error.py` with `data/bls_gvf_parameters.json` → `data/margins_of_error_results.json` |
 | Seasonal-adjustment robustness (fixed factors, X-13ARIMA-SEATS, STL, 12-month average) | `code/05_seasonal_sensitivity.py`, `code/x13_wcltu.spc` → `data/index_sensitivity.csv` |
@@ -53,4 +53,4 @@ python3 05_seasonal_sensitivity.py
 
 ## License
 
-Code: MIT License. Data files and documentation: CC BY 4.0 (attribute "NextChapter Displacement Report").
+Code: MIT License. Data files and documentation: CC BY 4.0 (attribute "NextChapter Employment Report").

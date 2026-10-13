@@ -33,7 +33,7 @@ Year-to-date and over-the-year payroll changes are calculated from FRED levels a
 
 ## Index name
 
-From Version 1.4 the index is called the White-Collar Long-Term Unemployment Index (formerly the White-Collar Displacement Index). The measure is unchanged. We renamed it because it counts everyone long-term unemployed whose last job was white-collar, including people who quit or are re-entering the labor force, and because it identifies long-term unemployment, not its cause. It should not be read as an estimate of AI-driven displacement. A companion measure limited to people who lost a job (excluding quits and re-entrants) is reported in Chapter 01.
+From Version 1.8 the index is called the White-Collar Long-Search Index. It was called the White-Collar Long-Term Unemployment Index from Version 1.4 to 1.72, and before that the White-Collar Displacement Index. The measure, definition and values are unchanged. We renamed it because it counts everyone long-term unemployed whose last job was white-collar, including people who quit or are re-entering the labor force, and because it identifies long-term unemployment, not its cause. It should not be read as an estimate of AI-driven displacement. A companion measure limited to people who lost a job (excluding quits and re-entrants) is reported in Chapter 01.
 
 ## How the variance method changed the results
 
@@ -115,7 +115,7 @@ Version log
 | 1.0 | Oct 5, 2026 | First publication. |
 
 How to cite
-Kulla, J. (2026, October 5). NextChapter Displacement Report: September 2026 (Version 1.4). NextChapter. https://launchyournextchapter.com/reports/displacement-report-september-2026
+Kulla, J. (2026, October 5). NextChapter Employment Report: September 2026 (Version 1.8; formerly the Displacement Report). NextChapter. https://launchyournextchapter.com/reports/displacement-report-september-2026
 Copy citation
 Data: report figures (CSV) · White-Collar Index history, 2015–2026 (CSV) · SEC restructuring filings coded for AI (CSV) · revenue per employee sample (CSV). Charts and data may be republished with attribution under CC BY 4.0. Index code is available on request.
 
